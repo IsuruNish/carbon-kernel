@@ -19,6 +19,7 @@ public class MongoDBDataSourceReader implements MongoDBDataSourceReaderDAO{
         return "NosSQL";
     }
 
+
     public static MongoDBConfiguration loadConfig(String xmlConfiguration)
             throws DataSourceException {
         try {
